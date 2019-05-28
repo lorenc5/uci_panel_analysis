@@ -23,7 +23,7 @@ check.packages <- function(pkg){
 
 # Check to see if packages are installed, and then load them
 packages<-c("car", "data.table", "descr", "devtools", "stringr", 
-            "tidyverse",  "xtable", "Zelig", "ZeligChoice",)
+            "tidyverse",  "xtable", "Zelig", "ZeligChoice")
 
 check.packages(packages)
 
